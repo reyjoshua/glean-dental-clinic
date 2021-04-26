@@ -1,4 +1,6 @@
-
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 a {
   color: inherit;
@@ -15,8 +17,8 @@ a {
 }
 
 .clinic {
-  background-image: url(../images/promo.jpg) ;
-  height: 500px;
+  background-image: url(../images/cover.jpg) ;
+  height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -25,5 +27,56 @@ a {
 }
 
 .navbar {
-  background-color: #FFFF99;
+  background-color: none;
+  font-size: 30px;
 }
+
+.link {
+  float: none;
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-image1 {
+  background-image: url(../images/facade.jpg) ;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+} 
+
+.card-image2 {
+  background-image: url(../images/clinic.jpg) ;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+} 
+
+.card-image3 {
+  background-image: url(../images/covid.jpg) ;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+} 
+
+.contact-image {
+  background-image: url(../images/contact.jpg);
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  width: 1500px;
+}
+
+.inquire {
+  margin-top: 550px;
+}
+
+.contact {
+  margin-top: 50px;
+}
+

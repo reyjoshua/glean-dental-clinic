@@ -1,23 +1,19 @@
 import React from 'react';
 import Banner from '../components/Banner';
 import Highlights from '../components/Highlights';
+import About from '../components/About';
+import Contact from '../components/Contact';
 import {Container} from 'react-bootstrap';
 
 export default function Home() {
-
-    const data = {
-        title: "Glean Dental Clinic",
-        content: "Opportunities for everyone, everywhere!",
-        destination:"/",
-        label: "Inquire Now!"
-    }
-
-    return (
+        return (
         <React.Fragment>
             <Container className="my-5">
-            <Banner data={data}/>
+            <Banner/>
             </Container>
+            <About className="my-5" />
             <Highlights className="my-5" /> 
-        </React.Fragment>
+            <Contact/> 
+            </React.Fragment>
     )
 }

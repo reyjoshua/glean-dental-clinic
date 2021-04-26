@@ -1,19 +1,14 @@
-import {Jumbotron} from 'react-bootstrap';
+import {Jumbotron, Button} from 'react-bootstrap';
 import Link from 'next/link';
 
 
-export default function Banner({data}){
-    console.log(data);
-    const {title, content, destination, label} = data;
+export default function Banner(){
+    
     return(
         <Jumbotron className="clinic">
-            <h1>{title}</h1>
-            <p>{content}</p>
-            <Link href={destination}>
-                <a>
-                    {label}
-                </a>
-            </Link>
+            <div className="text">
+            <Button type="button" className="btn btn-primary btn-lg inquire"><h1>INQUIRE NOW!</h1></Button>
+            </div>
         </Jumbotron>
     )
 }
