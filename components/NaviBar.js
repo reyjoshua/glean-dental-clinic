@@ -6,21 +6,21 @@ import Nav from 'react-bootstrap/Nav';
 export default function NaviBar() {
 
 	return (
-	<Navbar className="navbar" expand="lg">
+	<Navbar className="navbar" variant="light" expand="lg">
 		  <Navbar.Toggle aria-controls="basic-navbar-nav" />
 		  <Navbar.Collapse id="basic-navbar-nav">
 		    <Nav className="link">
                 <Link href="/">
                     <a className="nav-link" role="button">Home</a>
                 </Link>
-                <Link href="/">
+                <Link href="/about">
                     <a className="nav-link" role="button">About</a>
                 </Link>
-                <Link href="/">
-                    <a className="nav-link" role="button">Contact</a>
-                </Link>
-                <Link href="/">
+                <Link href="/procedures">
                     <a className="nav-link" role="button">Procedures</a>
+                </Link>
+                <Link href="/contact">
+                    <a className="nav-link" role="button">Contact</a>
                 </Link>
 		    </Nav>
 		</Navbar.Collapse>

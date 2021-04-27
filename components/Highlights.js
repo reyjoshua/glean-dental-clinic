@@ -9,7 +9,7 @@ export default function Highlights(){
                 <img className="card-image1"/>
                     <Card.Body>
                         <Card.Title className="text-center">
-                            <h2>Nearby place to be</h2>
+                            <h2>Accessible</h2>
                         </Card.Title>
                         <Card.Text>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis iure 
@@ -24,7 +24,7 @@ export default function Highlights(){
                 <img className="card-image2"/>
                     <Card.Body>
                         <Card.Title className="text-center">
-                            <h2>Sophisticated Clinic Design</h2>
+                            <h2>Authentic Service</h2>
                         </Card.Title>
                         <Card.Text>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis iure 
