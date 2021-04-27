@@ -9,18 +9,21 @@ export default function NaviBar() {
 	<Navbar className="navbar" variant="light" expand="lg">
 		  <Navbar.Toggle aria-controls="basic-navbar-nav" />
 		  <Navbar.Collapse id="basic-navbar-nav">
+            <a href="#" className="navbar-brand"> 
+                <span className="text-uppercase font-weight-bold text-white">Glean Dental Clinic</span>
+            </a>
 		    <Nav className="link">
                 <Link href="/">
-                    <a className="nav-link" role="button">Home</a>
+                    <a className="nav-link text-white" role="button">Home</a>
                 </Link>
                 <Link href="/about">
-                    <a className="nav-link" role="button">About</a>
+                    <a className="nav-link text-white" role="button">About</a>
                 </Link>
                 <Link href="/procedures">
-                    <a className="nav-link" role="button">Procedures</a>
+                    <a className="nav-link text-white" role="button">Procedures</a>
                 </Link>
                 <Link href="/contact">
-                    <a className="nav-link" role="button">Contact</a>
+                    <a className="nav-link text-white" role="button">Contact</a>
                 </Link>
 		    </Nav>
 		</Navbar.Collapse>

@@ -7,20 +7,21 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import { Grid } from "@material-ui/core";
 import { socialMedia } from "../data/socialMedia";
 
-const FooterSection = styled.div`
+
+function Footer() {
+
+  const FooterSection = styled.div`
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #ebd234 ;
+  background-color: #5f1b87 ;
   color: white;
   text-align: center;
   margin-top: 50px;
   text-shadow: 2px 2px 4px #000000;
-
-  `
-function Footer() {
+`
   
-  const { instagram, facebook, linkedin} = socialMedia;
+  const { instagram, facebook, linkedin } = socialMedia;
   return (
     <FooterSection>
       <h5>&copy; Glean Dental Clinic | 2021</h5>

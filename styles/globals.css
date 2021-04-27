@@ -28,18 +28,19 @@ a {
 
 .navbar {
   font-size: 30px;
-  background-color: #ebd234;
+  background-color: #5f1b87;
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .link {
   float: none;
   position: relative;
   top: 25px;
-  left: 50%;
+  left: 37%;
   transform: translate(-50%, -50%);
 }
 
