@@ -43,7 +43,6 @@ function Footer() {
       >
         <LinkedInIcon/>
       </Grid>
-      {/* add social media*/}
     </Grid>
     </div>
   )
