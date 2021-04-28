@@ -45,7 +45,7 @@ function index() {
                 <img className="card4"/>
                     <Card.Body>
                         <Card.Title className="text-center">
-                            <h1>Cosmetic Dentistry</h1>
+                            <h1>Implants</h1>
                         </Card.Title>
                     </Card.Body>
                 </Card>
@@ -65,7 +65,7 @@ function index() {
                 <img className="card6"/>
                     <Card.Body>
                         <Card.Title className="text-center">
-                            <h1>Cosmetic Dentistry</h1>
+                            <h1>Orthodontics</h1>
                         </Card.Title>
                         {/* <Card.Text className="procedure">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis iure 
