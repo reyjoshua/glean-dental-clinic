@@ -10,7 +10,7 @@ export default function NaviBar() {
 		  <Navbar.Toggle aria-controls="basic-navbar-nav" />
 		  <Navbar.Collapse id="basic-navbar-nav">
             <a href="#" className="navbar-brand"> 
-                <span className="text-uppercase font-weight-bold text-white">Glean Dental Clinic</span>
+                <span className="font-weight-bold text-white"><h1>Glean Dental Clinic</h1></span>
             </a>
 		    <Nav className="link">
                 <Link href="/">

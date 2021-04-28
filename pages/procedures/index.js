@@ -10,46 +10,31 @@ function index() {
         <Row>
             <Col xs={12} md={4}>
                 <Card className="cardHighlight">
-                <img className="card-image1"/>
+                <img className="card1"/>
                     <Card.Body>
                         <Card.Title className="text-center">
-                            <h2>Nearby place to be</h2>
+                            <h1>Prosthodontics</h1>
                         </Card.Title>
-                        <Card.Text>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis iure 
-                        deserunt fugit  molestiae explicabo ad nostrum non sed tempore et adipisci 
-                        quis enim dolorum, quas voluptates itaque laboriosam accusantium. Accusantium.
-                        </Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
             <Col xs={12} md={4}>
                 <Card className="cardHighlight">
-                <img className="card-image2"/>
+                <img className="card2"/>
                     <Card.Body>
                         <Card.Title className="text-center">
-                            <h2>Sophisticated Clinic Design</h2>
+                            <h1>Prosthodontics</h1>
                         </Card.Title>
-                        <Card.Text>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis iure 
-                        deserunt fugit molestiae explicabo ad nostrum non sed tempore et adipisci 
-                        quis enim dolorum, quas voluptates itaque laboriosam accusantium. Accusantium.
-                        </Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
             <Col xs={12} md={4}>
                 <Card className="cardHighlight">
-                <img className="card-image3"/>
+                <img className="card3"/>
                     <Card.Body>
                         <Card.Title className="text-center">
-                            <h2>Patient Priority</h2>
+                            <h1>Prosthodontics</h1>
                         </Card.Title>
-                        <Card.Text>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis iure 
-                        deserunt fugit molestiae explicabo ad nostrum non sed tempore et adipisci 
-                        quis enim dolorum, quas voluptates itaque laboriosam accusantium. Accusantium.
-                        </Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
@@ -57,46 +42,36 @@ function index() {
         <Row className="my-5">
             <Col xs={12} md={4}>
                 <Card className="cardHighlight">
-                <img className="card-image1"/>
+                <img className="card4"/>
                     <Card.Body>
                         <Card.Title className="text-center">
-                            <h2>Nearby place to be</h2>
+                            <h1>Cosmetic Dentistry</h1>
                         </Card.Title>
-                        <Card.Text>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis iure 
-                        deserunt fugit  molestiae explicabo ad nostrum non sed tempore et adipisci 
-                        quis enim dolorum, quas voluptates itaque laboriosam accusantium. Accusantium.
-                        </Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
             <Col xs={12} md={4}>
                 <Card className="cardHighlight">
-                <img className="card-image2"/>
+                <img className="card5"/>
                     <Card.Body>
                         <Card.Title className="text-center">
-                            <h2>Sophisticated Clinic Design</h2>
+                            <h1>Cosmetic Dentistry</h1>
                         </Card.Title>
-                        <Card.Text>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis iure 
-                        deserunt fugit molestiae explicabo ad nostrum non sed tempore et adipisci 
-                        quis enim dolorum, quas voluptates itaque laboriosam accusantium. Accusantium.
-                        </Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
             <Col xs={12} md={4}>
                 <Card className="cardHighlight">
-                <img className="card-image3"/>
+                <img className="card6"/>
                     <Card.Body>
                         <Card.Title className="text-center">
-                            <h2>Patient Priority</h2>
+                            <h1>Cosmetic Dentistry</h1>
                         </Card.Title>
-                        <Card.Text>
+                        {/* <Card.Text className="procedure">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis iure 
                         deserunt fugit molestiae explicabo ad nostrum non sed tempore et adipisci 
                         quis enim dolorum, quas voluptates itaque laboriosam accusantium. Accusantium.
-                        </Card.Text>
+                        </Card.Text> */}
                     </Card.Body>
                 </Card>
             </Col>

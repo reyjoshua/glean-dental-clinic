@@ -9,24 +9,12 @@ import { socialMedia } from "../data/socialMedia";
 
 
 function Footer() {
-
-  const FooterSection = styled.div`
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #5f1b87 ;
-  color: white;
-  text-align: center;
-  margin-top: 50px;
-  text-shadow: 2px 2px 4px #000000;
-`
   
   const { instagram, facebook, linkedin } = socialMedia;
   return (
-    <FooterSection>
+    <div className="footerSection">
       <h5>&copy; Glean Dental Clinic | 2021</h5>
       <p>All Rights Reserved</p>
-
       <Grid item container spacing={2} justify="center">
       <Grid
         item
@@ -57,7 +45,7 @@ function Footer() {
       </Grid>
       {/* add social media*/}
     </Grid>
-    </FooterSection>
+    </div>
   )
 }
 

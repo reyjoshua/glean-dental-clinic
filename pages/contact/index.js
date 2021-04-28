@@ -7,9 +7,7 @@ function index() {
         <h1 className="text-center my-5">
             Contact Us
         </h1>
-        <div className="contact">
-
-        </div>
+        <div className="contact"></div>
         </>
     )
 }

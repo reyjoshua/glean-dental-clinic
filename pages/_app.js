@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
         <NaviBar />
             <Component {...pageProps} />
-        <Footer />
+        <Footer className="my-5"/>
     </React.Fragment>
   )
 }

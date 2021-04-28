@@ -8,7 +8,7 @@ export default function Banner(){
         <Jumbotron className="clinic">
             <div className="text">
             <Link href="/contact">
-            <Button type="button" className="btn btn-primary btn-lg inquire"><h1>INQUIRE NOW!</h1></Button>
+            <Button type="button" className="btn btn-warning btn-lg inquire"><h1>Inquire Now!</h1></Button>
             </Link>
             </div>
         </Jumbotron>

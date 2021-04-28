@@ -4,9 +4,9 @@
 // you can find out  Material icon. => https://material-ui.com/components/material-icons/
 
 export const socialMedia = {
-  instagram: "https://www.facebook.com/raingleandmd",
-  facebook: "https://www.facebook.com/raingleandmd",
-  linkedin: "https://www.facebook.com/raingleandmd"
+  instagram: "https://www.instagram.com/gleandentalclinic/?hl=en",
+  facebook: "https://www.facebook.com/gleandentalclinic",
+  linkedin: "https://www.linkedin.com/in/maria-reynosa-glean-dmd-91425a81/"
   // You can add like this
   // twitter: "https://twitter.com",
 };
