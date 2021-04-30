@@ -1,10 +1,11 @@
-import {Jumbotron, Button} from 'react-bootstrap';
+import {Jumbotron, Button, Col} from 'react-bootstrap';
 import Link from 'next/link';
 
 
 export default function Banner(){
     
     return(
+        <Col xs={12} md={12} lg={4}>
         <Jumbotron className="clinic">
             <div className="text">
             <Link href="/contact">
@@ -12,5 +13,6 @@ export default function Banner(){
             </Link>
             </div>
         </Jumbotron>
+        </Col>
     )
 }

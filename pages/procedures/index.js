@@ -8,7 +8,7 @@ function index() {
             Procedures we offer
         </h1>
         <Row>
-            <Col xs={12} md={4}>
+            <Col xs={12} md={12} lg={4} className="my-5">
                 <Card className="cardHighlight">
                 <img className="card1"/>
                     <Card.Body>
@@ -21,7 +21,7 @@ function index() {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xs={12} md={4}>
+            <Col xs={12} md={12} lg={4} className="my-5">
                 <Card className="cardHighlight">
                 <img className="card2"/>
                     <Card.Body>
@@ -34,7 +34,7 @@ function index() {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xs={12} md={4}>
+            <Col xs={12} md={12} lg={4} className="my-5">
                 <Card className="cardHighlight">
                 <img className="card3"/>
                     <Card.Body>
@@ -49,7 +49,7 @@ function index() {
             </Col>
         </Row>
         <Row className="my-5">
-            <Col xs={12} md={4}>
+            <Col xs={12} md={12} lg={4} className="my-5">
                 <Card className="cardHighlight">
                 <img className="card4"/>
                     <Card.Body>
@@ -62,7 +62,7 @@ function index() {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xs={12} md={4}>
+            <Col xs={12} md={12} lg={4} className="my-5">
                 <Card className="cardHighlight">
                 <img className="card5"/>
                     <Card.Body>
@@ -78,7 +78,7 @@ function index() {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xs={12} md={4}>
+            <Col xs={12} md={12} lg={4} className="my-5">
                 <Card className="cardHighlight">
                 <img className="card6"/>
                     <Card.Body>
