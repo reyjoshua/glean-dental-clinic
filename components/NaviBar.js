@@ -2,31 +2,24 @@ import React from 'react';
 import Link from 'next/link';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import {Container, Col} from 'react-bootstrap';
 
 export default function NaviBar() {
 
 	return (
-	<Navbar className="navbar" variant="light" expand="lg">
-		  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-		  <Navbar.Collapse id="basic-navbar-nav">
-            <a href="#" className="navbar-brand"> 
-                <span className="font-weight-bold text-white"><h1>Glean Dental Clinic</h1></span>
-            </a>
+	<Navbar collapseOnSelect expand="sm" className="navbar">
+        <Navbar.Brand href="/"><h1 className="text-white gdc">Glean Dental Clinic</h1></Navbar.Brand>
+        <Container>
+		  <Navbar.Toggle aria-controls="navbar-toggle" />
+		  <Navbar.Collapse id="navbar-toggle">
 		    <Nav className="link">
-                <Link href="/">
-                    <a className="nav-link text-white" role="button">Home</a>
-                </Link>
-                <Link href="/about">
-                    <a className="nav-link text-white" role="button">About</a>
-                </Link>
-                <Link href="/procedures">
-                    <a className="nav-link text-white" role="button">Procedures</a>
-                </Link>
-                <Link href="/contact">
-                    <a className="nav-link text-white" role="button">Contact</a>
-                </Link>
+                <Nav.Link href="/" className="text-white">Home</Nav.Link>
+                <Nav.Link href="/about" className="text-white">About</Nav.Link>
+                <Nav.Link href="/procedures" className="text-white">Procedures</Nav.Link>
+                <Nav.Link href="/contact" className="text-white">Contact</Nav.Link>
 		    </Nav>
 		</Navbar.Collapse>
+        </Container>
 	</Navbar>
 	)
 }  

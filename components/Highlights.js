@@ -1,4 +1,5 @@
 import {Row, Col, Card} from 'react-bootstrap';
+import Image from 'next/image'
 
 export default function Highlights(){
     return(
@@ -6,7 +7,13 @@ export default function Highlights(){
         <Row>
             <Col xs={12} md={12} lg={4} className="my-5">
                 <Card className="cardHighlight card text-white bg-warning mb-3">
-                <img className="card-image1"/>
+                    <Image
+                    className="card-image1"
+                    src="/images/facade.jpg"
+                    alt="Picture of the author"
+                    width={400}
+                    height={400}
+                    />
                     <Card.Body className="shadow">
                         <Card.Title className="text-center">
                             <h1>Accessible</h1>
@@ -19,7 +26,13 @@ export default function Highlights(){
             </Col>
             <Col xs={12} md={12} lg={4} className="my-5">
                 <Card className="cardHighlight card text-white bg-warning mb-3">
-                <img className="card-image2"/>
+                    <Image
+                    className="card-image2"
+                    src="/images/promo.jpg"
+                    alt="Picture of the author"
+                    width={400}
+                    height={400}
+                    />
                     <Card.Body className="shadow">
                         <Card.Title className="text-center">
                             <h1>Authentic Service</h1>
@@ -32,7 +45,13 @@ export default function Highlights(){
             </Col>
             <Col xs={12} md={12} lg={4} className="my-5">
                 <Card className="cardHighlight card text-white bg-warning mb-3">
-                <img className="card-image3"/>
+                    <Image
+                    className="card-image3"
+                    src="/images/covid.jpg"
+                    alt="Picture of the author"
+                    width={400}
+                    height={400}
+                    />
                     <Card.Body className="shadow">
                         <Card.Title className="text-center">
                             <h1>Patient Priority</h1>

@@ -1,20 +1,32 @@
 import React from 'react'
-import {Row, Col, Card} from 'react-bootstrap';
+import {Row, Col, Container} from 'react-bootstrap';
+import Image from 'next/image'
 
 function index() {
     return (
-        <>
-        <Row className="margin-grad">
-            <Col xs={12} md={6}>
+        <>  
+            <Col xs={12} md={12} lg={12} xl={12}>
             <div className="cardHighlight">
-                <img className="gradpic"/>
+            <Image
+            className="gradpic"
+            src="/images/grad.jpg"
+            alt="Picture of the author"
+            width={400}
+            height={400}
+            />
             </div>
             </Col>
-            <Col xs={12} md={4}>
+            <Container>
+            <Col lg={12} xl={12}>
             <h1 className="text-center my-5">
-            About Us
+            Vision
             </h1>
-            <h4 className="text-center">Responsible for making sure that patients of all ages and sizes have their oral care needs covered. They are also responsible for providing their patients with the information that they need to prevent any problems from occurring to their teeth and mouth. This may include information on what foods should be avoided, how they can maintain proper dental health, and much more. They are required to help patients to recover from any diseases that affect the oral cavity. Diagnosis, preventative care, and treatment procedures to the teeth and mouth are all major components of a dentist’s job.</h4>
+            <h4 className="text-center">GDC aims the most Expert <b>C</b>omfortable <b>A</b>ppropriate <b>R</b>eliable  <b>E</b>xcellence in dental practice that provides top quality dental procedures and services in the Philippines</h4>
+            <br/>
+            <h1 className="text-center my-5">
+            Mission
+            </h1>
+            <h4 className="text-center"><b>G</b>entle and compassionate care with precision excellence <b>L</b>ess invasive to prevent, diagnose and solve dental problems <b>E</b>nhance smile  and perfect oral health <b>A</b>pproaches comfort-forcuse and judgment - free <b>N</b>urture the ethics and integrity of Dental practice </h4>
             <br/>
             <h3>Objective:</h3>
              <h4>
@@ -50,7 +62,7 @@ function index() {
                  </li>
              </ul>
             </Col>
-        </Row>
+            </Container>
         </>
     )
 }
