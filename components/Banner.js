@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Banner(){
     
     return(
-        <Col xs={12} md={12} lg={4}>
+        <Col xs={12} md={12} lg={12}>
         <Jumbotron className="clinic">
             <div className="text">
             <Link href="/contact">

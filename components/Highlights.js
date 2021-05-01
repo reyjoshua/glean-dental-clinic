@@ -4,7 +4,7 @@ export default function Highlights(){
     return(
     <>
         <Row>
-            <Col xs={12} md={12} lg={4}>
+            <Col xs={12} md={12} lg={4} className="my-5">
                 <Card className="cardHighlight card text-white bg-warning mb-3">
                 <img className="card-image1"/>
                     <Card.Body className="shadow">

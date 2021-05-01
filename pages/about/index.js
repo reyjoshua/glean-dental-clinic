@@ -26,20 +26,20 @@ function index() {
                  <li>
                  APC Dental and Wellness Center<br/>
                  Position: Senior Dentist<br/>
-                 Duration: December 2018- present
+                 Duration: December 2018- January 2019
                  </li>
                  <li>
                  RAWAEA LAYAN DENTAL CLINIC<br/>
-                 Position: General Dentist<br/>
+                 Position: General Dentist/Head of Cosmetic Dentistry<br/>
                  Duration: March 2016 - August 2018
                  </li>
                  <li>
                  Metrosmiles Dental Specialist<br/>
-                 Position: Dentist<br/>
+                 Position: General Dentist<br/>
                  Duration: May 2013 - March 2016   
                  </li>
                  <li>
-                 City Best Dental Clinic
+                 City Best Dental Clinic<br/>
                  Position: Dentist<br/>
                  Duration: December 2013 – April 2014 
                  </li>
