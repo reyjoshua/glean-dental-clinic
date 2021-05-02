@@ -87,7 +87,7 @@ h1 {
 }
 
 .card-image1 {
-  height: auto;
+  height: 600px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,7 +95,7 @@ h1 {
 } 
 
 .card-image2 {
-  height: auto;
+  height: 600px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,7 +103,7 @@ h1 {
 } 
 
 .card-image3 {
-  height: auto;
+  height: 600px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
