@@ -38,6 +38,15 @@ h1 {
   border-color: black;
 }
 
+.procedures {
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+  border-radius: 4;
+  border-width: 0.5;
+  border-color: black;
+}
+
 .specialty {
   background-color: #8708c2;
   border-color: black;
@@ -58,9 +67,9 @@ h1 {
 .navbar {
   font-size: 40px;
   background-color: #5f1b87;
-  overflow: hidden;
   position: fixed;
   top: 0;
+  height: auto;
   width: 100%;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -71,13 +80,14 @@ h1 {
 
 .mr-auto {
   position: flex;
-  justify-content: center;
-  margin-left: 450px;
+  justify-content: flex-end;
+  height: auto;
+  width: 100%;
   
 }
 
 .card-image1 {
-  height: 500px;
+  height: auto;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,7 +95,7 @@ h1 {
 } 
 
 .card-image2 {
-  height: 500px;
+  height: auto;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,7 +103,7 @@ h1 {
 } 
 
 .card-image3 {
-  height: 500px;
+  height: auto;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -108,53 +118,64 @@ h1 {
   margin-top: 5px;
 }
 
-.inquire {
+.text {
+  text-align: center;
   margin-top: 50px;
-  margin-left: 40%;
 }
 
-.contact {
+.position {
   display: flex;
   justify-content: center;
 }
 
+.contact {
+  height: auto;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.card {
+  min-height: 1040px;
+  width: 100%;
+}
+
 .card1 {
-  height: 700px;
+  height: 500px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
 .card2 {
-  height: 700px;
+  height: 500px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
 .card3 {
-  height: 700px;
+  height: 500px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
 .card4 {
-  height: 900px;
+  height: 500px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
 .card5 {
-  height: 900px;
+  height: 500px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
 .card6 {
-  height: 900px;
+  height: 500px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;

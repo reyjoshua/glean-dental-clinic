@@ -9,13 +9,9 @@ function index() {
             <Row>
             <Col xs={12} md={12} lg={12} xl={12}>
             <div className="cardHighlight">
-            <Image
-            className="gradpic"
-            src="/images/grad.jpg"
-            alt="Picture of the author"
+            <img className="gradpic" src={require('../../images/grad.jpg')} alt="Picture of the Doctor"
             width={400}
-            height={400}
-            />
+            height={400} />
             </div>
             <div>
             <h1 className="name">
