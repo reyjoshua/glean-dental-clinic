@@ -10,7 +10,7 @@ export default function Banner(){
          className="clinic"
          src="/images/cover.jpg"
          alt="Cover photo"
-         height={1100}
+         height={1200}
          width={1800}
          />
         <div className="text">

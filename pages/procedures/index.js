@@ -10,9 +10,8 @@ function index() {
         </h1>
         <Row>
             <Col xs={12} md={12} lg={4} className="my-5">
-                <Card className="cardHighlight">
+                <Card className="card1">
                     <Image
-                    className="card1"
                     src="/images/prostho1.png"
                     alt="Picture of the author"
                     width={500}
@@ -29,9 +28,8 @@ function index() {
                 </Card>
             </Col>
             <Col xs={12} md={12} lg={4} className="my-5">
-                <Card className="cardHighlight">
+                <Card className="card2">
                     <Image
-                    className="card2"
                     src="/images/prostho2.png"
                     alt="Picture of the author"
                     width={500}
@@ -48,9 +46,8 @@ function index() {
                 </Card>
             </Col>
             <Col xs={12} md={12} lg={4} className="my-5">
-                <Card className="cardHighlight">
+                <Card className="card3">
                     <Image
-                    className="card3"
                     src="/images/prostho3.png"
                     alt="Picture of the author"
                     width={500}
@@ -69,9 +66,8 @@ function index() {
         </Row>
         <Row className="my-5">
             <Col xs={12} md={12} lg={4} className="my-5">
-                <Card className="cardHighlight">
+                <Card className="card4">
                     <Image
-                    className="card4"
                     src="/images/cosmetic1.jpg"
                     alt="Picture of the author"
                     width={500}
@@ -88,9 +84,8 @@ function index() {
                 </Card>
             </Col>
             <Col xs={12} md={12} lg={4} className="my-5">
-                <Card className="cardHighlight">
+                <Card className="card5">
                     <Image
-                    className="card5"
                     src="/images/cosmetic2.jpg"
                     alt="Picture of the author"
                     width={500}
@@ -110,9 +105,8 @@ function index() {
                 </Card>
             </Col>
             <Col xs={12} md={12} lg={4} className="my-5">
-                <Card className="cardHighlight">
+                <Card className="card6">
                         <Image
-                        className="card6"
                         src="/images/braces.png"
                         alt="Picture of the author"
                         width={500}

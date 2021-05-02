@@ -11,8 +11,8 @@ export default function Highlights(){
                     className="card-image1"
                     src="/images/facade.jpg"
                     alt="Picture of the author"
-                    width={400}
-                    height={400}
+                    width={500}
+                    height={500}
                     />
                     <Card.Body className="shadow">
                         <Card.Title className="text-center">
@@ -30,8 +30,8 @@ export default function Highlights(){
                     className="card-image2"
                     src="/images/promo.jpg"
                     alt="Picture of the author"
-                    width={400}
-                    height={400}
+                    width={500}
+                    height={500}
                     />
                     <Card.Body className="shadow">
                         <Card.Title className="text-center">
@@ -49,8 +49,8 @@ export default function Highlights(){
                     className="card-image3"
                     src="/images/covid.jpg"
                     alt="Picture of the author"
-                    width={400}
-                    height={400}
+                    width={500}
+                    height={500}
                     />
                     <Card.Body className="shadow">
                         <Card.Title className="text-center">

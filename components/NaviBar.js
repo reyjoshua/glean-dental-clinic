@@ -7,19 +7,17 @@ import {Container, Col} from 'react-bootstrap';
 export default function NaviBar() {
 
 	return (
-	<Navbar collapseOnSelect expand="sm" className="navbar">
-        <Navbar.Brand href="/"><h1 className="text-white gdc">Glean Dental Clinic</h1></Navbar.Brand>
-        <Container>
-		  <Navbar.Toggle aria-controls="navbar-toggle" />
-		  <Navbar.Collapse id="navbar-toggle">
-		    <Nav className="link">
-                <Nav.Link href="/" className="text-white">Home</Nav.Link>
-                <Nav.Link href="/about" className="text-white">About</Nav.Link>
-                <Nav.Link href="/procedures" className="text-white">Procedures</Nav.Link>
-                <Nav.Link href="/contact" className="text-white">Contact</Nav.Link>
-		    </Nav>
+		<Navbar className="navbar" expand="lg">
+		<Navbar.Brand href="/" ><h3 className="gdc text-white">Glean Dental Clinic</h3></Navbar.Brand>
+		<Navbar.Toggle aria-controls="basic-navbar-nav" />
+		<Navbar.Collapse id="basic-navbar-nav">
+		  <Nav className="mr-auto">
+			<Nav.Link href="/" className="text-white">Home</Nav.Link>
+			<Nav.Link href="/about" className="text-white">About</Nav.Link>
+			<Nav.Link href="/procedures" className="text-white">Procedures</Nav.Link>
+			<Nav.Link href="/contact" className="text-white">Contact</Nav.Link>
+		  </Nav>
 		</Navbar.Collapse>
-        </Container>
-	</Navbar>
+	  </Navbar>
 	)
 }  
