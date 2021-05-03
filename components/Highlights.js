@@ -26,7 +26,7 @@ export default function Highlights(){
                 <Card style={{height: "auto"}} bg="warning" text="white">
                     <img
                     className="card-image2"
-                    src={require('../images/promo2.jpg')}
+                    src={require('../images/promo3.jpg')}
                     alt="Picture of the author"
                     width={400}
                     height={400}
