@@ -30,7 +30,7 @@ function index() {
             <h1 className="text-center my-5" style={{backgroundColor: "#f5da2a", fontFamily: "'Oswald', sans-serif;"}}>
             Mission
             </h1>
-            <h4 className="text-center"><b style={{color: "brown", fontFamily: "'Oswald', sans-serif;"}}>G</b>entle and compassionate care with precision excellence<br/> <b style={{color: "red", fontFamily: "'Oswald', sans-serif;"}}>L</b>ess invasive to prevent, diagnose and solve dental problems<br/> <b style={{color: "blue", fontFamily: "'Oswald', sans-serif;"}}>E</b>nhance smile  and perfect oral health<br/> <b style={{color: "violet", fontFamily: "'Oswald', sans-serif;"}}>A</b>pproaches comfort-forcuse and judgment - free<br/> <b style={{color: "green", fontFamily: "'Oswald', sans-serif;"}}>N</b>urture the ethics and integrity of Dental practice </h4>
+            <h4 className="text-center"><b style={{color: "brown", fontFamily: "'Oswald', sans-serif;"}}>G</b>entle and compassionate care with precision excellence<br/> <b style={{color: "red", fontFamily: "'Oswald', sans-serif;"}}>L</b>ess invasive to prevent, diagnose and solve dental problems<br/> <b style={{color: "blue", fontFamily: "'Oswald', sans-serif;"}}>E</b>nhance smile  and perfect oral health<br/> <b style={{color: "violet", fontFamily: "'Oswald', sans-serif;"}}>A</b>pproaches comfort-focus and judgment - free<br/> <b style={{color: "green", fontFamily: "'Oswald', sans-serif;"}}>N</b>urture the ethics and integrity of Dental practice </h4>
              </Col>
              <br/>
              <Row>
@@ -88,6 +88,13 @@ function index() {
                  Caregiver - Graduate
                  </li>
              </ul>
+             <h3>Credentials:</h3>
+             <ul className="experience">
+                 <li>Dentist Licensure Exam Passer of November 2013 under Professional Regulatory Commission </li>
+                 <li>Saudi Arabia Licensed Dentist under Saudi Commission for Health Specialist 12/12/2014</li>
+                 <li>Orthodontic Preceptorship Certificate @ ACADEMY OF ORTHODONTICS</li>
+                 <li>KLINE clear aligner certified provider</li>
+            </ul>
              </Col>
              </Row>
             </Container>
